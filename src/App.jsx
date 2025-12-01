@@ -92,17 +92,32 @@ function App() {
               <div className="flex items-center justify-center w-full col-span-4 col">
                 <ul className="flex items-center justify-between text-center">
                   <li className="hover:bg-white/15 py-1 px-2 hover:px-4 rounded-full transition-all text-sm md:text-md">
-                    <a href="">
+                    <a href="#project_section"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        const el = document.getElementById("project_section");
+                        if (el) el.scrollIntoView({ behavior: "smooth" });
+                      }}>
                       پروژه ها
                     </a>
                   </li>
                   <li className="hover:bg-white/15 py-1 px-2 hover:px-4 rounded-full transition-all text-sm md:text-md">
-                    <a href="">
+                    <a href="#learned_section"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        const el = document.getElementById("learned_section");
+                        if (el) el.scrollIntoView({ behavior: "smooth" });
+                      }}>
                       رزومه
                     </a>
                   </li>
                   <li className="hover:bg-white/15 py-1 px-2 hover:px-4 rounded-full transition-all text-sm md:text-md">
-                    <a href="">
+                    <a href="#contact_section"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        const el = document.getElementById("contact_section");
+                        if (el) el.scrollIntoView({ behavior: "smooth" });
+                      }}>
                       ارتباط
                     </a>
                   </li>
@@ -161,21 +176,21 @@ function App() {
 
                 <div className="grid grid-cols-1 items-center md:grid-cols-4 mt-12">
                   <div className="col col-span-1 flex justify-center mb-6 md:mb-0">
-                    <img src={memoji3} alt="" className='w-42 md:w-full'/>
+                    <img src={memoji3} alt="" className='w-42 md:w-full' />
                   </div>
                   <div className="col text-xl text-center md:text-start col-span-3">
                     <p>
-پارسا حسنی
-برنامه‌نویس وبسایت، طراح گرافیک و توسعه‌دهنده گیم‌سرور.
-در زمینه طراحی و پیاده‌سازی وب، ساخت رابط کاربری و مدیریت گیم‌سرورها فعالیت دارم.
-علاقه‌مند به ترکیب خلاقیت و فناوری برای ساخت پروژه‌های متنوع در حوزه وب و بازی.  
-                  </p>
-                </div>
+                      پارسا حسنی
+                      برنامه‌نویس وبسایت، طراح گرافیک و توسعه‌دهنده گیم‌سرور.
+                      در زمینه طراحی و پیاده‌سازی وب، ساخت رابط کاربری و مدیریت گیم‌سرورها فعالیت دارم.
+                      علاقه‌مند به ترکیب خلاقیت و فناوری برای ساخت پروژه‌های متنوع در حوزه وب و بازی.
+                    </p>
+                  </div>
                 </div>
               </div>
 
 
-              <div className=" mt-18">
+              <div className="mt-18" id='project_section'>
                 <div className="title w-full text-center">
                   <ShinyText text="PROJECTS" disabled={false} speed={3} className='text-xl' />
                   <h2 className='text-5xl font-bold'>
@@ -184,42 +199,40 @@ function App() {
                 </div>
 
                 <div className="flex items-center justify-center flex-col gap-8 mt-12">
-                  
-                  
+
+
                   <a href="https://kandelous.com">
-                  <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
+                    <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
-                    <div className="flex items-center justify-center overflow-hidden h-48">
-                      <img src={pro3} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
-                    </div>
+                      <div className="flex items-center justify-center overflow-hidden h-48">
+                        <img src={pro3} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                      </div>
 
-                    <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
-                      <div className="w-full md:w-[50%] text-4xl font-bold text-center">
-                        <h3>موزه مردم شناسی کندلوس</h3>
-                        <p className='text-sm pt-2 font-light text-white/90'>فیلمبردای، عکسبرداری و مدیریت سوشیال مدیا</p>
+                      <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
+                        <div className="w-full md:w-[50%] text-4xl font-bold text-center">
+                          <h3>موزه مردم شناسی کندلوس</h3>
+                          <p className='text-sm pt-2 font-light text-white/90'>فیلمبردای، عکسبرداری و مدیریت سوشیال مدیا</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
 
-                  {/* dsadasd */}
-                  
                   <a href="https://pishkajgroup.com">
-                  <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
+                    <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
-                    <div className="flex items-center justify-center overflow-hidden h-48">
-                      <img src={pro1} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
-                    </div>
+                      <div className="flex items-center justify-center overflow-hidden h-48">
+                        <img src={pro1} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                      </div>
 
-                    <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
-                      <div className="w-full md:w-[50%] text-4xl font-bold text-center">
-                        <h3>شهرک مسکونی پیش‌کاج</h3>
-                        <p className='text-sm pt-2 font-light text-white/90'>طراحی و برنامه نویسی وبسایت</p>
+                      <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
+                        <div className="w-full md:w-[50%] text-4xl font-bold text-center">
+                          <h3>شهرک مسکونی پیش‌کاج</h3>
+                          <p className='text-sm pt-2 font-light text-white/90'>طراحی و برنامه نویسی وبسایت</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </a>
-                  
+
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                     <div className="flex items-center justify-center overflow-hidden h-48">
@@ -247,7 +260,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                     <div className="flex items-center justify-center overflow-hidden h-48">
@@ -269,7 +282,7 @@ function App() {
               </div>
 
 
-              <div className=" mt-18">
+              <div className=" mt-18" id='learned_section'>
                 <div className="title w-full text-center">
                   <ShinyText text="CERTIFICATES" disabled={false} speed={3} />
                   <h2 className='text-5xl font-bold'>
@@ -321,7 +334,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="mt-18 mb-18">
+              <div className="mt-18 mb-18" id='contact_section'>
                 <div className="title w-full text-center">
                   <ShinyText text="Contact Me" disabled={false} speed={3} />
                   <h2 className='text-5xl font-semibold'>
