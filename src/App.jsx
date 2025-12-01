@@ -82,6 +82,8 @@ function App() {
             />
           </div>
 
+          {/* sdasdasdasd */}
+
           <div className="flex justify-center pt-0 md:pt-10 z-1000" dir='ltr'>
             <header className="fixed grid grid-cols-6  backdrop-blur-[15px] w-100% w-full max-w-full md:max-w-xl py-3 px-8 bg-black/60 md:bg-black/10  rounded-none md:rounded-full md:border-1 border-white/25">
               <div className="w-8 col">
