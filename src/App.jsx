@@ -34,7 +34,8 @@ import cer6 from "./assets/certificate-en5.jpg";
 import pro0 from "./assets/pro.jpg";
 import pro1 from "./assets/project1.png";
 import pro2 from "./assets/project2.png";
-import pro4 from "./assets/project3.png";
+import pro3 from "./assets/project4.jpg";
+import pro4 from "./assets/project5.png";
 
 import { LuChevronsDown } from "react-icons/lu";
 
@@ -70,7 +71,7 @@ function App() {
         <>
           <ScrollToTopButton />
 
-          <Toptitle />
+          {/* <Toptitle /> */}
 
           <div className="absolute w-full h-[100vh] overflow-hidden -z-50">
             <Aurora
@@ -81,8 +82,8 @@ function App() {
             />
           </div>
 
-          <div className="flex justify-center pt-13 md:pt-18 z-1000" dir='ltr'>
-            <header className="fixed grid grid-cols-6  backdrop-blur-[15px] w-100% w-full max-w-full md:max-w-xl py-3 px-8 bg-black/90 md:bg-black/10  rounded-none md:rounded-full md:border-1 border-white/25">
+          <div className="flex justify-center pt-0 md:pt-10 z-1000" dir='ltr'>
+            <header className="fixed grid grid-cols-6  backdrop-blur-[15px] w-100% w-full max-w-full md:max-w-xl py-3 px-8 bg-black/60 md:bg-black/10  rounded-none md:rounded-full md:border-1 border-white/25">
               <div className="w-8 col">
                 <img src={logo} alt="" />
               </div>
@@ -183,6 +184,22 @@ function App() {
                 <div className="flex items-center justify-center flex-col gap-8 mt-12">
                   
                   
+                  <a href="https://kandelous.com">
+                  <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
+
+                    <div className="flex items-center justify-center overflow-hidden h-48">
+                      <img src={pro3} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                    </div>
+
+                    <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
+                      <div className="w-full md:w-[50%] text-4xl font-bold text-center">
+                        <h3>موزه مردم شناسی کندلوس</h3>
+                        <p className='text-sm pt-2 font-light text-white/90'>فیلمبردای، عکسبرداری و مدیریت سوشیال مدیا</p>
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                  
                   <a href="https://pishkajgroup.com">
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
@@ -202,27 +219,27 @@ function App() {
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                     <div className="flex items-center justify-center overflow-hidden h-48">
-                      <img src={pro4} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
-                    </div>
-
-                    <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
-                      <div className="w-full md:w-[50%] text-4xl font-bold text-center">
-                        <h3>دوره طراحی وبسیات کوآنتوم</h3>
-                        <p className='text-sm pt-2 font-light text-white/90'>مدرس و برگزار کننده دوره</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
-
-                    <div className="flex items-center justify-center overflow-hidden h-48">
                       <img src={pro0} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
                     </div>
 
                     <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
                       <div className="w-full md:w-[50%] text-4xl font-bold text-center">
                         <h3>شهرک توریستی نمک‌آبرود</h3>
-                        <p className='text-sm pt-2 font-light text-white/90'>طراحی گرافیک</p>
+                        <p className='text-sm pt-2 font-light text-white/90'>طراحی گرافیک و وبسایت</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
+
+                    <div className="flex items-center justify-center overflow-hidden h-48">
+                      <img src={pro4} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                    </div>
+
+                    <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
+                      <div className="w-full md:w-[50%] text-4xl font-bold text-center">
+                        <h3>سرور ماینکرفت آی‌آر پیکسل</h3>
+                        <p className='text-sm pt-2 font-light text-white/90'>طراحی گرافیک و وبسایت</p>
                       </div>
                     </div>
                   </div>
@@ -335,7 +352,7 @@ function App() {
                   <textarea name="message" required className="min-h-26 max-h-100 py-3 px-4 mt-1 w-full bg-zinc-900 rounded-xl focus:outline-1 focus:outline-purple-300 border-1 border-white/10"
                     placeholder="پیام خود را بنوسید..."></textarea>
                   <input type="hidden" name="redirect" value="https://web3forms.com/success"></input>
-                  <button type="submit" className="w-full py-3 mt-6 rounded-xl bg-zinc-900 text-zinc-300 border-1 border-white/10 md:hover:border-purple-300 cursor-pointer">ارسال</button>
+                  <button type="submit" className="w-full py-3 mt-6 rounded-xl  text-black border-1 border-white/10 bg-purple-300 cursor-pointer">ارسال</button>
 
                 </form>
 
