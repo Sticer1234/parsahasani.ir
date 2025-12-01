@@ -34,7 +34,7 @@ import cer6 from "./assets/certificate-en5.jpg";
 import pro0 from "./assets/pro.jpg";
 import pro1 from "./assets/project1.png";
 import pro2 from "./assets/project2.png";
-import pro3 from "./assets/project4.jpg";
+import pro3 from "./assets/project444.jpg";
 import pro4 from "./assets/project5.png";
 
 import { LuChevronsDown } from "react-icons/lu";
