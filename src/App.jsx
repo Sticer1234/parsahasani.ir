@@ -256,7 +256,7 @@ function App() {
                     <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
                       <div className="w-full md:w-[50%] text-4xl font-bold text-center">
                         <h3>سرور ماینکرفت آی‌آر پیکسل</h3>
-                        <p className='text-sm pt-2 font-light text-white/90'>طراحی گرافیک و وبسایت</p>
+                        <p className='text-sm pt-2 font-light text-white/90'>برنامه نویسی سرور و سایت</p>
                       </div>
                     </div>
                   </div>
