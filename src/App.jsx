@@ -205,7 +205,7 @@ function App() {
                     <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                       <div className="flex items-center justify-center overflow-hidden h-48">
-                        <img src={pro3} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                        <img src={pro3} alt="" className="scale-105 lg:group-hover:scale-110 lg:group-hover:blur-xs transition-all duration-500" />
                       </div>
 
                       <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
@@ -221,7 +221,7 @@ function App() {
                     <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                       <div className="flex items-center justify-center overflow-hidden h-48">
-                        <img src={pro1} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                        <img src={pro1} alt="" className="scale-105 lg:group-hover:scale-110 lg:group-hover:blur-xs transition-all duration-500" />
                       </div>
 
                       <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
@@ -236,7 +236,7 @@ function App() {
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                     <div className="flex items-center justify-center overflow-hidden h-48">
-                      <img src={pro0} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                      <img src={pro0} alt="" className="scale-105 lg:group-hover:scale-110 lg:group-hover:blur-xs transition-all duration-500" />
                     </div>
 
                     <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
@@ -250,7 +250,7 @@ function App() {
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                     <div className="flex items-center justify-center overflow-hidden h-48">
-                      <img src={pro4} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                      <img src={pro4} alt="" className="scale-105 lg:group-hover:scale-110 lg:group-hover:blur-xs transition-all duration-500" />
                     </div>
 
                     <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
@@ -264,7 +264,7 @@ function App() {
                   <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
 
                     <div className="flex items-center justify-center overflow-hidden h-48">
-                      <img src={pro2} alt="" className="scale-105 group-hover:scale-110 group-hover:blur-xs transition-all duration-500" />
+                      <img src={pro2} alt="" className="scale-105 lg:group-hover:scale-110 lg:group-hover:blur-xs transition-all duration-500" />
                     </div>
 
                     <div className="absolute flex items-center inset-0 bg-gradient-to-r from-zinc-900/50 md:from-zinc-900/5 to-zinc-900 z-10">
