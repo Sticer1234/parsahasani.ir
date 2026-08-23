@@ -1,0 +1,42 @@
+    [
+  {
+    "id": 1,
+    "title": "موزه مردم شناسی کندلوس",
+    "description": "فیلمبردای، عکسبرداری و مدیریت سوشیال مدیا",
+    "image": "/images/projects/pro3.jpg",
+    "link": "https://kandelous.com",
+    "tags": ["فیلمبرداری", "عکاسی", "سوشیال مدیا"]
+  },
+  {
+    "id": 2,
+    "title": "شهرک مسکونی پیش‌کاج",
+    "description": "طراحی و برنامه نویسی وبسایت",
+    "image": "/images/projects/pro1.jpg",
+    "link": "https://pishkajgroup.com",
+    "tags": ["طراحی وب", "برنامه نویسی"]
+  },
+  {
+    "id": 3,
+    "title": "شهرک توریستی نمک‌آبرود",
+    "description": "طراحی گرافیک و وبسایت",
+    "image": "/images/projects/pro0.jpg",
+    "link": null,
+    "tags": ["طراحی گرافیک", "طراحی وب"]
+  },
+  {
+    "id": 4,
+    "title": "سرور ماینکرفت آی‌آر پیکسل",
+    "description": "برنامه نویسی سرور و سایت",
+    "image": "/images/projects/pro4.jpg",
+    "link": null,
+    "tags": ["برنامه نویسی", "سرور"]
+  },
+  {
+    "id": 5,
+    "title": "سرور رول پلی پرایم",
+    "description": "طراحی و برنامه نویسی وبسایت",
+    "image": "/images/projects/pro2.jpg",
+    "link": null,
+    "tags": ["طراحی وب", "برنامه نویسی"]
+  }
+]
