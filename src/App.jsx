@@ -265,7 +265,7 @@ function App() {
                 </div>
 
                 <div className="flex items-center justify-center flex-col gap-8 mt-12">
-                  <a href="https://mansorehwedding.ir">
+                  <a href="https://mysyrup.ir">
                     <div className="relative rounded-2xl group overflow-hidden border-1 border-white/30 shadow-xl">
                       <div className="flex items-center justify-center overflow-hidden h-48">
                         <img
